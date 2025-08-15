@@ -24,11 +24,11 @@ GENE_POOL = [
 ]
 
 # --- Parámetros del Algoritmo Genético ---
-POPULATION_SIZE = 20  # Cuántos individuos hay en cada generación.
+POPULATION_SIZE = 10  # Cuántos individuos hay en cada generación.
 NUM_GENES = 3         # Cada individuo se compone de 3 números.
-MUTATION_RATE = 0.1   # Probabilidad de que un gen mute (10%).
+MUTATION_RATE = 0.15   # Probabilidad de que un gen mute (10%).
 TOURNAMENT_SIZE = 5   # Número de individuos que compiten en la selección.
-NUM_GENERATIONS = 50 # Número de ciclos que correrá el algoritmo.
+NUM_GENERATIONS = 10 # Número de ciclos que correrá el algoritmo.
 ELITISM_COUNT = 1     # Número de mejores individuos que pasan directo a la siguiente generación.
 
 
